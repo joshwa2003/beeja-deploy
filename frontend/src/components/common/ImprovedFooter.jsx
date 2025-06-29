@@ -15,9 +15,7 @@ import {
 import { 
   FiMail, 
   FiPhone, 
-  FiMapPin, 
-  FiArrowUp,
-  FiHeart 
+  FiMapPin 
 } from "react-icons/fi";
 
 // Images

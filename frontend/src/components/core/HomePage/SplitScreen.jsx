@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { fadeIn, scaleUp } from '../../common/motionFrameVarients';
+import { fadeIn } from '../../common/motionFrameVarients';
 import './SplitScreen.css';
 
 // Using your existing certification images

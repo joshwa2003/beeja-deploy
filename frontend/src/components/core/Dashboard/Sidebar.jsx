@@ -7,11 +7,9 @@ import { sidebarLinks } from './../../../../data/dashboard-links';
 import { logout } from "../../../services/operations/authAPI"
 import ConfirmationModal from "../../common/ConfirmationModal"
 import SidebarLink from "./SidebarLink"
-import Loading from './../../common/Loading';
 
 import { HiMenuAlt1 } from 'react-icons/hi'
 import { IoMdClose } from 'react-icons/io'
-import { FiSettings } from 'react-icons/fi'
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md'
 
 import { setOpenSideMenu, setScreenSize, toggleSidebarCollapse } from "../../../slices/sidebarSlice";

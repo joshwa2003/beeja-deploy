@@ -1,4 +1,3 @@
-import React from "react"
 import { motion } from 'framer-motion'
 import BackgroundEffect from "./BackgroundEffect"
 import FoundingStory from "../assets/Images/FoundingStory.png"

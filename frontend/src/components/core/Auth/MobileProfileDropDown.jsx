@@ -29,20 +29,15 @@ import { fetchCourseCategories } from './../../../services/operations/courseDeta
 
 export default function MobileProfileDropDown() {
     const { user } = useSelector((state) => state.profile)
-    if (!user) return null
-    // console.log('user data from store = ', user )
-
     const dispatch = useDispatch()
     const navigate = useNavigate()
     const ref = useRef(null)
-
-    useOnClickOutside(ref, () => setOpen(false))
-
-
+    
     const [open, setOpen] = useState(false)
     const [subLinks, setSubLinks] = useState([]);
     const [loading, setLoading] = useState(false);
 
+    useOnClickOutside(ref, () => setOpen(false))
 
     const fetchSublinks = async () => {
         try {
@@ -61,10 +56,12 @@ export default function MobileProfileDropDown() {
 
     // console.log('data of store  = ', useSelector((state)=> state))
 
-
     useEffect(() => {
         fetchSublinks();
     }, [])
+
+    if (!user) return null
+    // console.log('user data from store = ', user )
 
 
     return (

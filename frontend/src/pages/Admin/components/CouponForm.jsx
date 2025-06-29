@@ -1,9 +1,9 @@
-  import { useState, useEffect } from 'react';
+  import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 import { createCoupon } from '../../../services/operations/couponAPI';
 import { toast } from 'react-hot-toast';
-import { FiTag, FiPercent, FiDollarSign, FiCalendar, FiUsers, FiShoppingCart, FiLink, FiEye, FiClock } from 'react-icons/fi';
+import { FiTag, FiPercent, FiDollarSign, FiCalendar, FiUsers, FiShoppingCart, FiLink, FiEye } from 'react-icons/fi';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import "../../../styles/datepicker.css";

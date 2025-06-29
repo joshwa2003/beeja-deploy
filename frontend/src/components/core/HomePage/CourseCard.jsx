@@ -1,9 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { HiUsers } from "react-icons/hi";
-import { ImTree } from "react-icons/im";
 import { FaRupeeSign } from "react-icons/fa";
-import RatingStars from "../../common/RatingStars";
 import { toast } from "react-hot-toast";
 
 const CourseCard = ({ cardData, currentCard, setCurrentCard }) => {

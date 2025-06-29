@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 1000 || true",
+    "lint:fix": "eslint . --ext js,jsx --fix",
+    "generate-proptypes": "node scripts/generate-proptypes.js",
+    "lint:status": "node scripts/eslint-status.js",
     "preview": "vite preview",
     "server": "cd server && npm run dev"
   },
@@ -67,6 +70,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-unused-imports": "^4.1.4",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
   }

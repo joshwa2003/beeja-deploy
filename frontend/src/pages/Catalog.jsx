@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { motion } from "framer-motion"
 
 // import CourseCard from "../components/Catalog/CourseCard"
 // import CourseSlider from "../components/Catalog/CourseSlider"
 import ImprovedFooter from "../components/common/ImprovedFooter"
-import Course_Card from '../components/core/Catalog/Course_Card'
 import Course_Slider from "../components/core/Catalog/Course_Slider"
 import BundleCourseSection from "../components/core/Catalog/BundleCourseSection"
 import Loading from './../components/common/Loading';
@@ -27,7 +26,7 @@ function Catalog() {
 
     // Fetch All Categories
     useEffect(() => {
-        ; (async () => {
+         (async () => {
             try {
                 const res = await fetchCourseCategories();
                 const category_id = res.filter(
@@ -43,7 +42,7 @@ function Catalog() {
 
     useEffect(() => {
         if (categoryId) {
-            ; (async () => {
+             (async () => {
                 setLoading(true)
                 try {
                     const res = await getCatalogPageData(categoryId)

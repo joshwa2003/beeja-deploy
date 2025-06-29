@@ -4,7 +4,6 @@ import { useLocation, useNavigate, useParams } from "react-router-dom"
 
 import IconBtn from './../../common/IconBtn';
 import { setCourseViewSidebar } from "../../../slices/sidebarSlice"
-import { checkSectionAccess } from "../../../services/operations/courseProgressAPI"
 
 import { BsChevronDown } from "react-icons/bs"
 import { IoIosArrowBack } from "react-icons/io"
@@ -43,7 +42,7 @@ export default function VideoDetailsSidebar({ setReviewModal }) {
 
   // set which section - subSection is selected 
   useEffect(() => {
-    ; (() => {
+     (() => {
       if (!courseSectionData.length) return
       const currentSectionIndx = courseSectionData.findIndex((data) => data._id === sectionId)
       const currentSubSectionIndx = courseSectionData?.[currentSectionIndx]?.subSection.findIndex((data) => data._id === subSectionId)

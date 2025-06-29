@@ -6,17 +6,13 @@ import {
   FiSend, 
   FiUsers, 
   FiUser, 
-  FiTrash2, 
-  FiEdit3, 
-  FiFilter,
+  FiTrash2,
   FiSearch,
   FiRefreshCw,
   FiEye,
-  FiClock,
-  FiCheckCircle,
-  FiAlertCircle
+  FiClock
 } from 'react-icons/fi';
-import { BsCheckAll, BsPeople, BsPersonCheck } from 'react-icons/bs';
+import { BsPeople, BsPersonCheck } from 'react-icons/bs';
 import { IoClose, IoSparkles } from 'react-icons/io5';
 import { HiOutlineAcademicCap } from 'react-icons/hi';
 import { 
@@ -24,8 +20,7 @@ import {
   getAllNotifications, 
   deleteNotificationAdmin, 
   getAllUsers,
-  formatRecipientType,
-  getPriorityColor 
+  formatRecipientType 
 } from '../../../services/operations/adminNotificationAPI';
 import toast from 'react-hot-toast';
 

@@ -8,7 +8,6 @@ import { NavbarLinks } from "../../../data/navbar-links";
 import studyNotionLogo from "../../assets/Logo/Logo-Full-Light.png";
 import { fetchCourseCategories } from "./../../services/operations/courseDetailsAPI";
 
-import { AiOutlineShoppingCart } from "react-icons/ai";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 const ModernNavbar = () => {

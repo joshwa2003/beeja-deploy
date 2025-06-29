@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FaRegEnvelope, FaRegEnvelopeOpen, FaSync } from 'react-icons/fa'
 import { MdDelete } from 'react-icons/md'
 import { useSelector } from 'react-redux'

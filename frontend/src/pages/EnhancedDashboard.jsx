@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { Outlet } from "react-router-dom"
 import Sidebar from '../components/core/Dashboard/Sidebar'
@@ -95,6 +95,11 @@ const EnhancedDashboard = () => {
         return 'Good Evening';
     };
 
+    // Scroll to the top of the page when the component mounts
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     if (profileLoading || authLoading) {
         return (
             <div className='flex items-center justify-center min-h-screen dashboard-gradient'>
@@ -105,11 +110,6 @@ const EnhancedDashboard = () => {
             </div>
         )
     }
-
-    // Scroll to the top of the page when the component mounts
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [])
 
     return (
         <div className={`relative flex min-h-[calc(100vh-3.5rem)] dashboard-gradient ${theme === 'dark' ? 'dark' : ''}`}>

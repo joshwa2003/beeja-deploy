@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react"
-import { useDispatch, useSelector } from "react-redux"
+import { useEffect, useState } from "react"
+import { useSelector } from "react-redux"
 import { useNavigate, useParams, useLocation } from "react-router-dom"
 import { getQuizById, submitQuiz, getQuizStatus } from "../../../services/operations/quizAPI"
 import IconBtn from "../../common/IconBtn"
 import { IoIosArrowBack } from "react-icons/io"
-import { FiClock, FiCheckCircle, FiAlertCircle, FiAward } from "react-icons/fi"
+import { FiClock, FiAlertCircle, FiAward } from "react-icons/fi"
 import { HiOutlineQuestionMarkCircle } from "react-icons/hi"
 import Xarrow from 'react-xarrows'
 

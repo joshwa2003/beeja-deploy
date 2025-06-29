@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import HighlightText from '../HomePage/HighlightText'
 import { motion, AnimatePresence } from 'framer-motion'
 import { fadeIn } from '../../common/motionFrameVarients'

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import { Link } from "react-router-dom";
 import { useDispatch } from 'react-redux';
 
 import "./css style/home.css"
@@ -8,7 +7,6 @@ import HighlightText from '../components/core/HomePage/HighlightText';
 import CTAButton from "../components/core/HomePage/Button";
 import CodeBlocks from "../components/core/HomePage/CodeBlocks";
 import TimelineSection from '../components/core/HomePage/TimelineSection';
-import LearningLanguageSection from '../components/core/HomePage/LearningLanguageSection';
 import InstructorSection from '../components/core/HomePage/InstructorSection';
 import ImprovedFooter from '../components/common/ImprovedFooter';
 import ExploreMore from '../components/core/HomePage/ExploreMore';
@@ -19,7 +17,6 @@ import TeamSlider from '../components/core/HomePage/TeamSlider';
 import SplitScreen from '../components/core/HomePage/SplitScreen';
 
 import { MdOutlineRateReview } from 'react-icons/md';
-import { FaArrowRight } from "react-icons/fa";
 
 import { motion } from 'framer-motion';
 import { fadeIn, scaleUp, bounce } from './../components/common/motionFrameVarients';

@@ -94,7 +94,7 @@
 
 
 
-import React, { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { FaQuoteRight } from "react-icons/fa";
 import data from "../api/data";

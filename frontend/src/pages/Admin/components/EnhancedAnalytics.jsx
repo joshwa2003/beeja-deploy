@@ -14,18 +14,14 @@ import {
   FaCalendarAlt,
   FaDownload,
   FaRedo,
-  FaFilter,
   FaExpand,
   FaCompress,
   FaEye,
   FaDollarSign,
   FaClock,
   FaBell,
-  FaChartLine,
   FaSignInAlt,
-  FaUserClock,
-  FaPlus,
-  FaHistory
+  FaPlus
 } from "react-icons/fa";
 
 

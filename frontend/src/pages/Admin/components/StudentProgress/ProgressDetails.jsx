@@ -1,6 +1,6 @@
   import { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { FaSpinner, FaVideo, FaCheckCircle, FaTimesCircle, FaCertificate } from 'react-icons/fa';
+import { FaSpinner, FaVideo, FaCertificate } from 'react-icons/fa';
 import { getStudentProgress } from '../../../../services/operations/adminAPI';
 import { formatDate } from '../../../../utils/dateFormatter';
 

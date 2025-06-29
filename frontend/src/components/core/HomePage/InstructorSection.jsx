@@ -1,9 +1,5 @@
-import React from 'react'
 // Using an abstract tech/code themed image
 const Instructor = "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-import HighlightText from './HighlightText'
-import CTAButton from "../HomePage/Button"
-import { FaArrowRight } from 'react-icons/fa'
 import Img from './../../common/Img';
 
 

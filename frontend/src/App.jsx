@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Route, Routes, useLocation, Link } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 import Toast from "./components/common/Toast";
@@ -56,7 +56,6 @@ import Instructor from './components/core/Dashboard/Instructor';
 
 import Cart from "./components/core/Dashboard/Cart/Cart";
 import EnrolledCourses from "./components/core/Dashboard/EnrolledCourses";
-import AddCourse from "./components/core/Dashboard/AddCourse/AddCourse";
 import AccessRequests from "./components/core/Dashboard/AccessRequests";
 import PurchaseHistory from "./components/core/Dashboard/PurchaseHistory/PurchaseHistory";
 import Certificates from "./pages/Dashboard/Certificates";

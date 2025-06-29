@@ -1,4 +1,3 @@
-import React from 'react'
 
 import Logo1 from "../../../assets/TimeLineLogo/Logo1.svg"
 import Logo2 from "../../../assets/TimeLineLogo/Logo2.svg"

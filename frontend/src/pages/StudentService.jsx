@@ -1,7 +1,5 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn, bounce, scaleUp } from "../components/common/motionFrameVarients";
-import HighlightText from "../components/core/HomePage/HighlightText";
+import { fadeIn, scaleUp } from "../components/common/motionFrameVarients";
 import ImprovedFooter from "../components/common/ImprovedFooter";
 import { Link } from "react-router-dom";
 import { 
@@ -14,7 +12,6 @@ import {
   FaGraduationCap,
   FaChartLine,
   FaStar,
-  FaPlay,
   FaArrowRight,
   FaCheckCircle
 } from "react-icons/fa";

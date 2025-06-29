@@ -4,11 +4,8 @@ import { toast } from "react-hot-toast"
 import { RxCross2 } from "react-icons/rx"
 import { useSelector } from "react-redux"
 
-import {
-  createSubSection,
-  updateSubSection,
-} from "../../../services/operations/courseDetailsAPI"
-import { getAllQuizzes } from "../../../services/operations/quizAPI"
+
+
 import Upload from "../../../components/core/Dashboard/AddCourse/Upload"
 
 export default function AdminSubSectionModal({ 

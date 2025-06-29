@@ -1,4 +1,3 @@
-import React from "react"
 import RatingStars from "../../common/RatingStars"
 import Img from '../../common/Img'
 import { FiCheck } from "react-icons/fi"

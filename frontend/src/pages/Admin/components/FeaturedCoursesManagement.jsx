@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaStar, FaUsers, FaEye, FaEdit, FaSave, FaTimes } from 'react-icons/fa';
+import { FaStar, FaUsers, FaEye, FaSave, FaTimes } from 'react-icons/fa';
 import { getAllCourses } from '../../../services/operations/courseDetailsAPI';
 import { getFeaturedCourses, updateFeaturedCourses } from '../../../services/operations/featuredCoursesAPI';
 import { toast } from 'react-hot-toast';

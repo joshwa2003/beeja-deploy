@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, bounce, scaleUp } from "../components/common/motionFrameVarients";
 import HighlightText from "../components/core/HomePage/HighlightText";

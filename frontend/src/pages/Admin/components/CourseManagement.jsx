@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { getAllCourses, approveCourse, deleteCourse, toggleCourseVisibility } from "../../../services/operations/adminAPI";
 import { getFullDetailsOfCourse } from "../../../services/operations/courseDetailsAPI";
-import { FaCheck, FaTrash, FaEye, FaEyeSlash, FaPlus, FaEdit } from "react-icons/fa";
+import { FaTrash, FaEye, FaEyeSlash, FaPlus, FaEdit } from "react-icons/fa";
 import { toast } from "react-hot-toast";
 import CreateCourse from "./CreateCourse/CreateCourse";
 import EditCourse from "./EditCourse";

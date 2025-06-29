@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import { useSelector } from "react-redux"
-import { formatDate, formatDateShort } from "../../../utils/dateFormatter"
+import { formatDateShort } from "../../../utils/dateFormatter"
 import Img from './../../common/Img';
 
 export default function MyProfile() {

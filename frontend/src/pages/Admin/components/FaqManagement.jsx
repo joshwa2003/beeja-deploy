@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { FaSearch, FaCheck, FaTimes, FaEdit, FaTrash, FaUser, FaClock, FaEye, FaEyeSlash, FaFilter, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaSearch, FaEdit, FaTrash, FaUser, FaClock, FaEye, FaEyeSlash, FaFilter, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { getAllFaqs, answerFaq, toggleFaqPublish, deleteFaq } from '../../../services/operations/faqAPI';
 import { toast } from 'react-hot-toast';
 

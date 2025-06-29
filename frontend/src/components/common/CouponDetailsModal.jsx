@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiX, FiTag, FiCalendar, FiUsers, FiPercent, FiDollarSign, FiClock, FiShoppingCart } from 'react-icons/fi';
 

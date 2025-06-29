@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { getUserCertificates } from '../../services/operations/certificateAPI';
 import CertificateModal from '../../components/core/Certificate/CertificateModal';

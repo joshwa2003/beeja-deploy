@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { verifyCertificate } from '../services/operations/certificateAPI';
 import CourseCertificate from '../components/core/Certificate/CourseCertificate';

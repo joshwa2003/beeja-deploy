@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom"
 
 import IconBtn from "../../../common/IconBtn"
 import CouponInput from "./CouponInput"
-import { FiCreditCard, FiShield, FiZap, FiGift } from "react-icons/fi"
 import { buyCourse } from "../../../../services/operations/studentFeaturesAPI"
 
 export default function RenderTotalAmount() {

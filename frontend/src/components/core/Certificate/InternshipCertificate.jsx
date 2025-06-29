@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import QRCode from 'qrcode';
 import { formatDate } from '../../../utils/dateFormatter';
-import { founderSign, isoLogo, msmeLogo } from '../../../assets/Images/certification img';
+import { founderSign, msmeLogo } from '../../../assets/Images/certification img';
 
 export default function InternshipCertificate({ certificateData }) {
   const [qrCodeUrl, setQrCodeUrl] = useState('');

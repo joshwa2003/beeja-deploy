@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getFeaturedCourses } from '../../../services/operations/featuredCoursesAPI';
 import Course_Slider from '../Catalog/Course_Slider';
 

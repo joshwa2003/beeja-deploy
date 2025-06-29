@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom"
 import { getUserEnrolledCourses } from "../../../services/operations/profileAPI"
 import { generateCertificate } from "../../../services/operations/certificateAPI"
 import Img from './../../common/Img';
-import IconBtn from "../../common/IconBtn"
 import CertificateModal from "../Certificate/CertificateModal"
 
 export default function EnrolledCourses() {

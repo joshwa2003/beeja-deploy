@@ -1,4 +1,3 @@
-import React from "react";
 import FAQSection from "../components/core/AboutPage/Faqs";
 import ImprovedFooter from "../components/common/ImprovedFooter";
 

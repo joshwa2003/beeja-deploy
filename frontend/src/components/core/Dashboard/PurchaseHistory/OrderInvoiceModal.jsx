@@ -1,4 +1,3 @@
-import React from 'react'
 import { FiX, FiPrinter } from 'react-icons/fi'
 
 export default function OrderInvoiceModal({ order, onClose }) {

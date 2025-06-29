@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { FiBook, FiUser, FiDollarSign, FiTag, FiSettings, FiSearch, FiFilter, FiCalendar } from 'react-icons/fi'
+import { FiBook, FiDollarSign, FiTag, FiSearch, FiFilter } from 'react-icons/fi'
 import { getAllCourses, setCourseType } from '../../../../services/operations/adminAPI'
-import { formatDate, getRelativeTime } from '../../../../utils/dateFormatter'
 import toast from 'react-hot-toast'
 
 export default function CourseTypeManager() {

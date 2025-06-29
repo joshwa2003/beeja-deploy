@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import ReactStars from "react-rating-stars-component"
 import Img from './Img';
 
@@ -20,7 +20,7 @@ function ReviewSlider() {
   const [reviews, setReviews] = useState(null)
 
   useEffect(() => {
-    ; (async () => {
+     (async () => {
       const { data } = await apiConnector(
         "GET",
         ratingsEndpoints.REVIEWS_DETAILS_API

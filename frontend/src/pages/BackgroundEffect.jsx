@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import '../pages/css style/backgroundeffect.css'
 
 const BackgroundEffect = () => {

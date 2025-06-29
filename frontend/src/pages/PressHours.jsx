@@ -1,4 +1,3 @@
-import React from "react";
 import ImprovedFooter from "../components/common/ImprovedFooter";
 
 const PressHours = () => {
